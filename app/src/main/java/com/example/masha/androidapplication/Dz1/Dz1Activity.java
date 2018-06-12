@@ -1,4 +1,4 @@
-package com.example.masha.androidapplication;
+package com.example.masha.androidapplication.Dz1;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.masha.androidapplication.R;
 
 public class Dz1Activity extends AppCompatActivity implements View.OnClickListener{
 

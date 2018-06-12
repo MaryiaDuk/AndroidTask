@@ -13,4 +13,9 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:textColor">@color/TextColor</item>
     </style>
+
+    <style name="Countries">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
 </resources>

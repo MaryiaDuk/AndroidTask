@@ -3,4 +3,13 @@
     <string name="TextOne">TextView 1</string>
     <string name="TextTwo">TextView 2</string>
     <string name="ButtonText">Click on me!</string>
+    <string name="ButtonDz1Text">Hometask 1</string>
+    <string name="ButtonDz2Text">Hometask 2</string>
+    <string name="Austria">Австрия</string>
+    <string name="Poland">Польша</string>
+    <string name="Italy">Италия</string>
+    <string name="Colombia">Колумбия</string>
+    <string name="Madagascar">Мадагаскар</string>
+    <string name="Thailand">Таиланд</string>
+    <string name="Denmark">Дания</string>
 </resources>

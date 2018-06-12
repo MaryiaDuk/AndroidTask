@@ -6,4 +6,7 @@
     <color name="TextView1">#cc688a</color>
     <color name="TextView2">#55c465</color>
     <color name="TextColor">#ffffff</color>
+    <color name="RedFlag">#c70c0c</color>
+    <color name="GreenFlag">#088306</color>
+    <color name="YellowFlag">#ffe312</color>
 </resources>
