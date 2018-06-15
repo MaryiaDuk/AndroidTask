@@ -1,10 +1,12 @@
 <resources>
-    <string name="app_name">AndroidApplication</string>
+    <string name="app_name">AndroidHometasks</string>
     <string name="TextOne">TextView 1</string>
     <string name="TextTwo">TextView 2</string>
     <string name="ButtonText">Click on me!</string>
     <string name="ButtonDz1Text">Hometask 1</string>
     <string name="ButtonDz2Text">Hometask 2</string>
+    <string name="ButtonDz3Text">Hometask 3</string>
+    <string name="ButtonDz4Text">Hometask 4</string>
     <string name="Austria">Австрия</string>
     <string name="Poland">Польша</string>
     <string name="Italy">Италия</string>

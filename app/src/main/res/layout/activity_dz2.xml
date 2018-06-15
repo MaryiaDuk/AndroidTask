@@ -17,10 +17,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+
 
                 <TextView
                     android:id="@+id/Austria"
@@ -29,8 +26,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/Austria" />
-
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/AustriaFlag"
@@ -66,10 +61,7 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+
 
                 <TextView
                     android:id="@+id/Poland"
@@ -78,7 +70,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/Poland" />
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/PolandFlag"
@@ -100,10 +91,7 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+
 
                 <TextView
                     android:id="@+id/Italy"
@@ -112,7 +100,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/Italy" />
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/ItalyFlag"
@@ -139,10 +126,7 @@
                     android:background="@color/RedFlag"></FrameLayout>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+
 
                 <TextView
                     android:id="@+id/Colombia"
@@ -152,7 +136,6 @@
                     android:layout_weight="1"
                     android:text="@string/Colombia" />
 
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/ColombiaFlag"
@@ -180,16 +163,13 @@
                     android:background="@color/RedFlag"></FrameLayout>
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+
                 <TextView
                     style="@style/Countries"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/Madagascar"/>
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/MadagascarFlag"
@@ -223,9 +203,7 @@
                         android:background="@color/GreenFlag"></FrameLayout>
                 </LinearLayout>
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+
 
                 <TextView
                     android:id="@+id/Thailand"
@@ -234,7 +212,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/Thailand" />
-            </LinearLayout>
+
 
             <LinearLayout
                 android:id="@+id/ThailandFlag"
@@ -296,96 +274,62 @@
                     </FrameLayout>
                 </LinearLayout>
             </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                style="@style/Countries"
+                android:layout_height="20dp"
+                android:text="@string/Denmark"
+                android:layout_weight="1"
+                android:textSize="15sp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/Denmark"
-                    style="@style/Countries"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/Denmark" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="370dp"
-                android:layout_height="280dp"
-                android:orientation="horizontal"
-                android:weightSum="37">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="21"
-
-                    android:orientation="vertical"
-                    android:weightSum="28">
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="12"
-                        android:background="@color/RedFlag">
-
-                    </FrameLayout>
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="4"
-                        android:background="@color/TextColor">
-
-                    </FrameLayout>
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="12"
-                        android:background="@color/RedFlag">
-
-                    </FrameLayout>
-                </LinearLayout>
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
                 <FrameLayout
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="4"
-                    android:background="@color/TextColor">
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:background="@color/RedFlag"></FrameLayout>
 
-                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:background="@color/TextColor"></FrameLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="12"
-                    android:orientation="vertical"
-                    android:weightSum="28">
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="12"
-                        android:background="@color/RedFlag">
-
-                    </FrameLayout>
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="4"
-                        android:background="@color/TextColor">
-
-                    </FrameLayout>
-
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="12"
-                        android:background="@color/RedFlag"></FrameLayout>
-                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="280dp"
+                    android:layout_height="100dp"
+                    android:background="@color/RedFlag"></FrameLayout>
             </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffffff"></FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:background="@color/RedFlag"></FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:background="@color/TextColor"></FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="280dp"
+                    android:layout_height="100dp"
+                    android:background="@color/RedFlag"></FrameLayout>
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
