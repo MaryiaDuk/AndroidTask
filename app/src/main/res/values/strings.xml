@@ -14,4 +14,9 @@
     <string name="Madagascar">Мадагаскар</string>
     <string name="Thailand">Таиланд</string>
     <string name="Denmark">Дания</string>
+    <string name="GetImage">Get image</string>
+    <string name="Anim">Animation</string>
+    <string name="Clock">Clock</string>
+    <string name="Diagram">Diagram</string>
+    <string name="ShowDiagram">Show Diagram!</string>
 </resources>
