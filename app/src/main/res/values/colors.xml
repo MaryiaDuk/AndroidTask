@@ -9,4 +9,5 @@
     <color name="RedFlag">#c70c0c</color>
     <color name="GreenFlag">#088306</color>
     <color name="YellowFlag">#ffe312</color>
+    <color name="Gray">#9499af</color>
 </resources>
