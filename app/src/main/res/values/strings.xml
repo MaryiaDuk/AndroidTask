@@ -19,4 +19,7 @@
     <string name="Clock">Clock</string>
     <string name="Diagram">Diagram</string>
     <string name="ShowDiagram">Show Diagram!</string>
+    <string name="WIFI">WIFI Status</string>
+    <string name="ButtonDz5Text">Hometask 5</string>
+    <string name="ChangeWIFI">Change WIFI State!</string>
 </resources>

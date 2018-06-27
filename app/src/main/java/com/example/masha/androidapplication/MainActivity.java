@@ -10,6 +10,7 @@ import com.example.masha.androidapplication.Dz1.Dz1Activity;
 import com.example.masha.androidapplication.Dz2.Dz2Activity;
 import com.example.masha.androidapplication.Dz3.Dz3Activity;
 import com.example.masha.androidapplication.Dz4.Dz4ChoiceActivity;
+import com.example.masha.androidapplication.Dz5.Dz5Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Button buttonDz2 = findViewById(R.id.buttonDz2);
         Button buttonDz3 = findViewById(R.id.buttonDz3);
         Button buttonDz4 = findViewById(R.id.buttonDz4);
-
+        Button buttonDz5 = findViewById(R.id.buttonDz5);
 
         buttonDz1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +57,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        buttonDz5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Dz5Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
