@@ -40,4 +40,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/ButtonDz5Text" />
+    <Button
+        android:id="@+id/buttonDz6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/ButtonDz6Text" />
 </LinearLayout>

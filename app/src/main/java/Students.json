@@ -1,0 +1,46 @@
+{
+  "people": [
+    {
+      "id": 0,
+      "name": "Maria ",
+      "surname": "Duk",
+      "age": 21,
+      "gender": "female"
+    },
+    {
+      "id": 1,
+      "name": "Sergei",
+      "surname": "Petrov",
+      "age": 20,
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "Ksenia",
+      "surname": "Voronina",
+      "age": 21,
+      "gender": "female"
+    },
+    {
+      "id": 3,
+      "name": "Yuliyana",
+      "surname": "Lisitsa",
+      "age": 15,
+      "gender": "female"
+    },
+    {
+      "id": 4,
+      "name": "Alex",
+      "surname": "Kovalev",
+      "age": 20,
+      "gender": "male"
+    },
+    {
+      "id": 5,
+      "name": "Maksim",
+      "surname": "Modnikov",
+      "age": 21,
+      "gender": "male"
+    }
+  ]
+}

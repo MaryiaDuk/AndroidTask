@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service android:name=".Dz5.WifiService"/>
+        <service android:name=".Dz5.WifiService" />
+
         <activity android:name=".Dz1.Dz1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -29,7 +30,13 @@
         <activity android:name=".Dz4.ClockActivity" />
         <activity android:name=".Dz4.DiagramActivity" />
         <activity android:name=".Dz4.AnimationActivity" />
-        <activity android:name=".Dz5.Dz5Activity"></activity>
+        <activity android:name=".Dz5.Dz5Activity" />
+        <activity
+            android:name=".Dz6.Hometask6Activity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Dz6.EditPersonActivity" />
+        <activity android:name=".Dz6.Person.ChangeActivity"/>
+        <activity android:name=".Dz6.Person.CreatePersonActivity"></activity>
     </application>
 
 </manifest>

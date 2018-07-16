@@ -22,4 +22,9 @@
     <string name="WIFI">WIFI Status</string>
     <string name="ButtonDz5Text">Hometask 5</string>
     <string name="ChangeWIFI">Change WIFI State!</string>
+    <string name="searchButton">Search</string>
+    <string name="addButton">Add a new student</string>
+    <string name="search_student">Search Person</string>
+    <string name="ButtonDz6Text">Hometask 6</string>
+    <string name="addNewPerson">Add New Person</string>
 </resources>
