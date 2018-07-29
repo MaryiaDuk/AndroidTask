@@ -35,8 +35,12 @@
             android:name=".Dz6.Hometask6Activity"
             android:windowSoftInputMode="stateHidden" />
         <activity android:name=".Dz6.EditPersonActivity" />
-        <activity android:name=".Dz6.Person.ChangeActivity"/>
-        <activity android:name=".Dz6.Person.CreatePersonActivity"></activity>
+        <activity android:name=".Dz6.Person.ChangeActivity" />
+        <activity android:name=".Dz6.Person.CreatePersonActivity" />
+        <activity android:name=".Dz8.Dz7Activity"></activity>
+        <activity android:name=".Dz8.SecondActivity" />
+        <activity android:name=".Dz8.FirstActivity" />
+        <activity android:name=".Dz8.Hometask8Activity" />
     </application>
 
 </manifest>
