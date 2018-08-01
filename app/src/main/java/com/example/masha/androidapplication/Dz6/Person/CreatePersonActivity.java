@@ -92,7 +92,7 @@ private String gender;
     protected void onDestroy() {
         super.onDestroy();
     }
-    private static class AddNewPerson {
+    public static class AddNewPerson {
         private Person p = new Person();
 
         public AddNewPerson addName(EditText name) {

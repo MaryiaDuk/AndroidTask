@@ -16,46 +16,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="14.66"
-        android:weightSum="100" >
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="50"
-            android:gravity="center"
-            android:text="Avatar:"
-            android:textColor="@android:color/background_dark"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/editImage"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="20sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_weight="17.6"
         android:orientation="horizontal"
-        android:layout_weight="14.66"
         android:weightSum="100">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="50"
-            android:text="Person Name:"
-            android:textSize="20sp"
             android:gravity="center"
-            android:textColor="@android:color/background_dark" />
+            android:text="Person Name:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editName"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:enabled="false"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -63,23 +41,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="17.6"
         android:orientation="horizontal"
-        android:layout_weight="14.66"
         android:weightSum="100">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Person Surname:"
-            android:textSize="20sp"
             android:layout_weight="50"
             android:gravity="center"
-            android:textColor="@android:color/background_dark"/>
+            android:text="Person Surname:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editSurname"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:enabled="false"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -87,23 +66,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="17.6"
         android:orientation="horizontal"
-        android:layout_weight="14.66"
         android:weightSum="100">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Person Age:"
             android:layout_weight="50"
-            android:textSize="20sp"
             android:gravity="center"
-            android:textColor="@android:color/background_dark"/>
+            android:text="Person Age:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editAge"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:enabled="false"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -111,8 +91,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="17.6"
         android:orientation="horizontal"
-        android:layout_weight="14.66"
         android:weightSum="100">
 
         <TextView
@@ -128,6 +108,7 @@
             android:id="@+id/editGender"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:enabled="false"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -135,8 +116,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="17.6"
         android:orientation="horizontal"
-        android:layout_weight="14.66"
         android:weightSum="100">
 
         <Button

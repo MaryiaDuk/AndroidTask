@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <FrameLayout
+        android:id="@+id/personlist_fragment_tablet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/person_fragment_tablet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50">
+
+    </FrameLayout>
+
+
+</LinearLayout>

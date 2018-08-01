@@ -76,31 +76,32 @@ public class PersonAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
         private PersonAdapter adapter;
         private List<Person> personList;
-        private List<Person> list;
+        private List<Person> filtredList;
 
         public PersonFilter(PersonAdapter adapter, List<Person> people) {
             this.adapter = adapter;
             this.personList = people;
-            this.list = new ArrayList<>();
+            this.filtredList = new ArrayList<>();
             flag = true;
         }
 
         @Override
         protected FilterResults performFiltering(CharSequence constraint) {
-            list.clear();
+            filtredList.clear();
             FilterResults filterResults = new FilterResults();
             if (constraint.length() == 0) {
-                list.addAll(personList);
+                filtredList.addAll(personList);
             } else {
                 String filterPattern = constraint.toString().trim();
-                for (final Person person : list) {
-                    if (person.getName().contains(filterPattern)) {
-                        list.add(person);
+                for (final Person person : personList) {
+                    if (person.getName().contains(filterPattern)||
+                            person.getSurname().toLowerCase().contains(filterPattern)) {
+                        filtredList.add(person);
                     }
                 }
             }
-            filterResults.values = list;
-            filterResults.count = list.size();
+            filterResults.values = filtredList;
+            filterResults.count = filtredList.size();
             return filterResults;
         }
 

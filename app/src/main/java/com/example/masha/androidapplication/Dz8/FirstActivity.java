@@ -43,7 +43,7 @@ public class FirstActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rxone);
+        setContentView(R.layout.activity_first);
         textView = findViewById(R.id.textRX);
         LinearLayout linearLayout = findViewById(R.id.hat);
         linearLayout.setOnClickListener(counter);

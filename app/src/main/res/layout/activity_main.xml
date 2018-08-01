@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,43 +7,58 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonDz1"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center|top"
-        android:text="@string/ButtonDz1Text" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/buttonDz2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/ButtonDz2Text" />
+        <Button
+            android:id="@+id/buttonDz1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:text="@string/ButtonDz1Text" />
 
-    <Button
-        android:id="@+id/buttonDz3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/ButtonDz3Text" />
+        <Button
+            android:id="@+id/buttonDz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ButtonDz2Text" />
 
-    <Button
-        android:id="@+id/buttonDz4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/ButtonDz4Text" />
-    <Button
-        android:id="@+id/buttonDz5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/ButtonDz5Text" />
-    <Button
-        android:id="@+id/buttonDz6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/ButtonDz6Text" />
-</LinearLayout>
+        <Button
+            android:id="@+id/buttonDz3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ButtonDz3Text" />
+
+        <Button
+            android:id="@+id/buttonDz4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ButtonDz4Text" />
+
+        <Button
+            android:id="@+id/buttonDz5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ButtonDz5Text" />
+
+        <Button
+            android:id="@+id/buttonDz6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ButtonDz6Text" />
+
+        <Button
+            android:id="@+id/buttonDz8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ButtonDz8Text" />
+    </LinearLayout>
+</ScrollView>

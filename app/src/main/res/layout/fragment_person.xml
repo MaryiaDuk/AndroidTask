@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dz6.EditPersonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/imagePerson"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="17.6"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:text="Person Name:"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="17.6"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:text="Person Surname:"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editSurname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="17.6"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:text="Person Age:"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="17.6"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:text="gender"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="17.6"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <Button
+                    android:id="@+id/buttonDelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="Delete" />
+
+                <Button
+                    android:id="@+id/buttonChange"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="Change" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

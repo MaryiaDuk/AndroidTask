@@ -1,5 +1,9 @@
 package com.example.masha.androidapplication.Dz6.Person;
 
+import android.support.v7.widget.RecyclerView;
+
+import com.example.masha.androidapplication.Dz6.Hometask6Activity;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
